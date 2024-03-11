@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+main {
+    padding: 1rem;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-link {
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: #212121;
+    text-decoration: none;
+    border: 2px solid #212121;
+    margin-top: 5px;
+}
