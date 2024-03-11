@@ -1,0 +1,170 @@
+* {
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 80px 0;
+}
+
+/* Reusable components */
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+h2, h1 {
+	font-size: 60px;
+	font-weight: 300;
+}
+
+.btn-primary {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    background-image: linear-gradient(90deg, #fb6655, #f78e6c);
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Hero Section */
+section .hero {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.hero .welcome-image {
+    text-align: right;
+}
+
+.hero .welcome-image img {
+	width: 90%;
+}
+
+.hero .welcome-text {
+    padding: 50px 0;
+}
+
+.hero .welcome-text h1 {
+    font-weight: 500;
+    padding: 30px 0;
+    color: darkslategrey;
+}
+
+.hero .welcome-text h1 span {
+    color: #f78e6c;
+}
+
+.hero .welcome-text p.slogan-text {
+	font-weight: 600;
+	font-size: 24px;
+	text-transform: capitalize;
+	padding-bottom: 20px;
+    color: darkslategray;
+}
+
+.hero .welcome-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* Dream Section */
+
+section#dream .hero {
+    flex-direction: row-reverse;
+}
+
+#dream .hero .welcome-image {
+    text-align: left;
+}
+
+#dream .hero .welcome-text h2 {
+    padding-bottom: 20px;
+}
+
+#dream .btn-primary {
+    background-image: linear-gradient(90deg, #ff136f, #ff579a);
+}
+
+/* Experiences Section */
+
+#experiences .container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-items {
+    width: 40%;
+    height: 300px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.experience-items h3 {
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.experience-items p.slogan-text {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.experience-items p {
+    line-height: 1.4;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.experience-items:first-child {
+    border-left: 7px solid #ff136f;
+}
+
+.experience-items:last-child {
+    border-left: 7px solid #b23308;
+}
+
+.experience-items:first-child p.slogan-text {
+    color: #ff136f;
+}
+
+.experience-items:last-child p.slogan-text {
+    color: #b23308;
+}
+
+/* Footer */
+
+footer#footer .container p {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 30px 0;
+    text-align: center;
+}

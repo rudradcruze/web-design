@@ -1,0 +1,119 @@
+/* Extra Small Device */
+@media only screen and (max-width: 575px) {
+
+    .container {
+        width: 80%;
+    }
+
+    .nav-bar {
+        height: auto;
+    }
+
+    .nav-wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 0;
+    }
+
+    .nav-wrapper .logo-section img {
+        width: 28px;
+        height: 33px;
+    }
+
+    .players,
+    .top-blog .blogs,
+    .latest-course {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .players .players-items {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .players .players-items h3 {
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .top-blog .blogs .blogs-items {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .latest-course-items {
+        width: 80%;
+    }
+
+    .latest-course-items img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Small Devices */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container {
+        width: 80%;
+    }
+
+    .nav-bar {
+        height: auto;
+    }
+
+    .nav-wrapper .logo-section img {
+        width: 32px;
+        height: 37px;
+    }
+
+    .nav-wrapper {
+        align-items: center;
+        padding: 15px;
+    }
+
+    .players,
+    .top-blog .blogs,
+    .latest-course {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .top-blog .blogs .blogs-items {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* Medium Devices */
+/* Small Devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 80%;
+    }
+
+    .top-blog .blogs .blogs-items {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .latest-course-items img {
+        width: 100%;
+        height: auto;
+    }
+
+    .ratings-time {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .ratings-time .ratings {
+        padding-left: 0;
+    }
+
+    .ratings-time .time {
+        margin-left: 0;
+    }
+}

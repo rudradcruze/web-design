@@ -1,0 +1,290 @@
+/* Basic Setup */
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    background: #F4F4F4;
+}
+
+/* Reusable Components */
+
+.common_heading {
+    font-weight: 600;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+    color: #1F1F1F;
+}
+
+.btn_primary_control {
+    border: none;
+    padding: 1.5rem 2.3rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #FFFFFF;
+}
+
+.bg_orange {
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.bg_dark:hover,
+.bg_pink {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.bg_blue {
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.bg_dark {
+    background: #000;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.common_seemore {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #FF9D00;
+}
+
+/* Header Section */
+
+#header .nav_control {
+    padding: 50px 0;
+}
+
+#header .nav_control img {
+    width: 100%;
+}
+
+#header .nav_control #navbarSupportedContent {
+    padding-left: 5.6rem;
+}
+
+
+#header .nav_control #navbarSupportedContent form {
+    position: relative;
+}
+
+#header .nav_control #navbarSupportedContent form input {
+    background: #F1F1F1;
+    width: 50rem;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+}
+
+#header .nav_control #navbarSupportedContent form input::placeholder {
+    color: #CCCCCC;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+#header .nav_control #navbarSupportedContent form button {
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    border: 0;
+    padding: 0;
+    font-size: 2rem;
+    color: #BABABA;
+}
+
+#header .nav_control #navbarSupportedContent .navbar-nav li.nav-item a.nav-link {
+    color: #707070;
+    font-weight: 400;
+    font-size: 1.6rem;
+    padding: 0 1.5rem;
+}
+
+#header .nav_control #navbarSupportedContent .navbar-nav li.nav-item a.nav-link:hover {
+    color: #1F1F1F;
+}
+
+/* Slider Section */
+
+#sliderSection #carouselExampleControls {
+    background: #FEEAE9;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 4.6rem;
+}
+
+#sliderSection #carouselExampleControls h1 {
+    font-weight: 700;
+    font-size: 5.6rem;
+    line-height: 8.4rem;
+    color: #1F1F1F;
+}
+
+#sliderSection #carouselExampleControls p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #4E4E4E;
+}
+
+.price_common,
+#sliderSection #carouselExampleControls h2 {
+    font-weight: 500;
+    font-size: 4.1rem;
+    line-height: 6.2rem;
+    color: #FF136F;
+}
+
+#sliderSection #carouselExampleControls img {
+    width: 85% !important;
+}
+
+/* Catagory */
+
+#catagory {
+    padding: 6.4rem 0;
+}
+
+.catagory_control .catagory_items {
+    border-radius: 15px;
+    padding: 1.5rem 1.5rem 1.5rem 3rem;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.catagory_control .catagory_items h3 {
+    font-weight: 500;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+    color: #FFFFFF;
+}
+
+/* Shooes */
+
+#shoes .shoes_header_conrol {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+#shoes .shoes_header_conrol a {
+    text-align: end;
+}
+
+#shoes .card {
+    padding: 2.4rem;
+    border: 0;
+}
+
+#shoes .card .card-body h5.card-title {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #1F1F1F;
+}
+
+#shoes .card .card-body p.card-text {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #4E4E4E;
+}
+
+#shoes .card .card-body .price_common {
+    font-size: 2.4rem;
+    color: #000;
+}
+
+/* Backpack */
+
+#shoes.backpack-control .card img {
+    width: 85%;
+}
+
+/* Footer */
+
+#footer .footer_item {
+    padding: 10rem 0;
+    background: #FFF2F1;
+    margin: 7.1rem 0;
+}
+
+#footer .footer_item p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
+
+#footer .footer_item .input-group {
+	margin: 0 auto !important;
+	width: 50rem;
+}
+
+#footer .footer_item .input-group input {
+    font-weight: 400;
+    font-size: 1.6rem;
+    padding: 0 2rem;
+    border: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

@@ -1,0 +1,73 @@
+@media only screen and (max-width: 575px) {
+
+    #special,
+    #pricing,
+    #clients,
+    #faq,
+    .special-item {
+        padding: 0 20PX;
+    }
+
+    #special {
+        padding: 50px 0;
+    }
+
+    .common_heading.my-5.pb-5 {
+        margin: 0 !important;
+        padding: 0 !important;
+        padding-bottom: 10px !important;
+    }
+
+    footer#footer .text-end,
+    footer#footer {
+        text-align: center !important;
+    }
+
+    footer#footer h4 {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    footer#footer .text-end,
+    footer#footer {
+        text-align: center !important;
+    }
+
+    footer#footer h4 {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .special_info h2 {
+        font-size: 25px;
+    }
+
+    .common_heading.my-5.pb-5 {
+        margin: 0 !important;
+        padding: 0 !important;
+        padding-bottom: 10px !important;
+    }
+    
+    #special {
+        padding: 50px 0;
+    }
+
+    #clients {
+        padding-bottom: 50px;
+    }
+
+    #faq img {
+        width: 100%;
+    }
+
+    footer#footer h4 {
+        padding: 0;
+    }
+
+    footer#footer .text-end,
+    footer#footer {
+        text-align: center !important;
+    }
+}

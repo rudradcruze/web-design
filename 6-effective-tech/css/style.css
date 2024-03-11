@@ -1,0 +1,35 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#header .nav_control .navbar-brand {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#slider h1 {
+    font-size: 65px;
+}
+
+#slider .carousel-caption {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+#feedback .carousel-control-next,
+#feedback .carousel-control-prev {
+    width: auto !important;
+}
+
+#feedback .row .col-lg-6 {
+    width: 48% !important;
+}
+
+.social-meida a {
+    height: 40px;
+    width: 40px;
+    color: black;
+}

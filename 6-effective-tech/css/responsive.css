@@ -1,0 +1,33 @@
+@media only screen and (max-width: 767px) {
+    #team .common-heading {
+            width: 100% !important;
+        }
+
+        #feedback .row.feedback_control {
+            display: flex !important;
+            flex-direction: column !important;
+        }
+
+        #feedback .row.feedback_control .col-lg-6 {
+            width: 100% !important;
+        }
+
+        #companies {
+            display: none;
+        }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    #slider h1 {
+        font-size: 25px;
+    }
+    #slider p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #slider h1 {
+        font-size: 40px;
+    }
+}

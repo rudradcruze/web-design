@@ -1,0 +1,263 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* Basic setup */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+/* Header Nav */
+
+.nav-bar {
+	height: 94px;
+	width: 100%;
+	background: #562EFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-wrapper .logo-section img {
+    width: 40.42px;
+    height: 51px;
+}
+
+.nav-wrapper .logo-section {
+    display: flex;
+}
+
+.nav-wrapper .logo-section h2 {
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 36px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+nav img {
+    cursor: pointer;
+}
+
+/* Top player and blog section */
+
+/* Top Player Section */
+
+.top-players-blog {
+    background: #fff;
+    border-radius: 5px;
+    padding: 33px;
+    margin: 36px 0 21px 0;
+}
+
+.container {
+    width: 870px;
+}
+
+main {
+	background: #F3F1FF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.common-heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #562EFF;
+}
+
+.common-heading {
+    padding-bottom: 40px;
+}
+
+.players {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.players .players-items img {
+    width: 56px;
+    height: 56px;
+}
+
+.players .players-items {
+    display: flex;
+    align-items: center;
+}
+
+.players .players-items h3 {
+    padding-left: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000;
+}
+
+/* Top blog Section */
+
+.top-blog .common-heading {
+    padding: 30px 0;
+}
+
+.top-blog .blogs {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px 45px;
+}
+
+.top-blog .blogs .blogs-items {
+    display: flex;
+}
+
+.top-blog .blogs .blogs-items h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
+    padding-bottom: 6px;
+}
+
+.top-blog .blogs .blogs-items p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9f9f9f;
+}
+
+.top-blog .blogs .blogs-items p a {
+    color: #562EFF;
+}
+
+.top-blog .blogs .blogs-items img {
+    width: 177px;
+    height: 117px;
+    margin-right: 16px;
+}
+
+
+/* Latest Course */
+
+.latest-course-wrapper {
+    background: #fff;
+    border-radius: 5px;
+    padding: 33px;
+    margin-bottom: 28px;
+}
+
+.latest-course-wrapper .common-heading {
+    padding-bottom: 10px;
+}
+
+.latest-course {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.latest-course-items {
+	padding: 15px 15px 20px 15px;
+	box-shadow: rgba(50, 50, 93, 0.15) 0px 6px 12px -2px, rgba(0, 0, 0, 0.01) 0px 3px 7px -3px;
+	border-radius: 15px;
+}
+
+.latest-course-items img {
+    width: 224px;
+    height: 104px;
+    margin-bottom: 20px;
+}
+
+.latest-course-items h3 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20.0336px;
+    line-height: 23px;
+    color: #1E1E1E;
+    padding-bottom: 7px;
+}
+
+.latest-course-items a {
+    font-family: 'Roboto';
+    font-size: 14.6913px;
+    line-height: 17px;
+    color: #ED6B4F;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+.latest-course-items p i {
+    color: #FFC014;
+}
+
+.latest-course-items p.ratings-stars i:last-child {
+    color: #AEAEAE;
+    opacity: 0.25;
+}
+
+.ratings-time {
+    display: flex;
+    align-items: center;
+}
+
+.ratings-time .ratings {
+    padding-left: 10px;
+}
+
+.ratings-time .time {
+    margin-left: 10px;
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    -webkit-border-radius: 14.6913px;
+    -moz-border-radius: 14.6913px;
+    -ms-border-radius: 14.6913px;
+    -o-border-radius: 14.6913px;
+    font-weight: 600;
+    font-size: 14.6913px;
+    line-height: 20px;
+    color: #FF4A60;
+    padding: 5px 10px;
+}
+
+.ratings-time .time i {
+    color: #FF4A60;
+}
